@@ -10,11 +10,11 @@ changes in rock uplift rate ("tectonic") or hillslope process efficiencies ("cli
 
 or
 
- 1a) Generate initial topography grid in another landscape evolution model like Tadpole (Richardson et al. 2020). This version of the model does not include dynamic
- channels (e.g., stream-power incision). Extract channel network grid beginning at selected drainage area (e.g., 5000 m2).
+  1a) Generate initial topography grid in another landscape evolution model like Tadpole (Richardson et al. 2020). This version of the model does not include dynamic
+  channels (e.g., stream-power incision). Extract channel network grid beginning at selected drainage area (e.g., 5000 m2).
 
- 2a) Generate grids of soil thickness (H), mineral concentrations (X), and soil and bedrock nuclide concentrations (Ns & Nzb) using startup.m. 
+  2a) Generate grids of soil thickness (H), mineral concentrations (X), and soil and bedrock nuclide concentrations (Ns & Nzb) using startup.m. 
 
- 3a) Run admwx() with p.experiment_type='steady-state' until steady-state conditions attained -- several Myr
+  3a) Run admwx() with p.experiment_type='steady-state' until steady-state conditions attained -- several Myr
 
- 4a) Run admwx() with p.experiment_type='tectonic' or 'climatic'
+  4a) Run admwx() with p.experiment_type='tectonic' or 'climatic'
