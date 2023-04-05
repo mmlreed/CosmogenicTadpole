@@ -17,4 +17,4 @@ channels (e.g., stream-power incision). Extract channel network grid beginning a
 
 3) Run admwx() with p.experiment_type='steady-state' until steady-state conditions attained -- several Myr
 
-4) Run admwx() with p.experiment_type='tectonic' or 'climatic'
+4) Run admwx() with p.experiment_type='tectonic' or 'climatic' 
